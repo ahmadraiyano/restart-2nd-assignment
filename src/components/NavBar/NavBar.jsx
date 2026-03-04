@@ -14,7 +14,7 @@ library.add(fas, far, fab)
 
 const NavBar = () => {
   return (
-    <div className="bg-base-100 shadow-sm">
+    <div className=" shadow-sm bg-white">
       <div className="w-10/12 mx-auto flex justify-between items-center py-4">
         <div className="">
           <div className="dropdown">
