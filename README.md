@@ -22,8 +22,8 @@
 
 **In short:**
 
-* Props = **data from parent**
-* State = **data managed by the component**
+* Props = data from parent
+* State = data managed by the component
 
 ---
 
@@ -60,3 +60,6 @@
 **In short:**
 
 * React events = functions triggered by user actions.
+
+## Live Link
+https://tranquil-cascaron-f643b1.netlify.app/
