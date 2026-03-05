@@ -2,7 +2,7 @@ import React from "react";
 import vector2 from "../../assets/vector2.png";
 import vector1 from "../../assets/vector1.png";
 
-const Banner = () => {
+const Banner = ({countProgress,countResolved}) => {
   return (
     <div className="w-10/12 mx-auto flex flex-col lg:flex-row justify-between gap-8 my-20">
       <div className="lg:w-6/12">
@@ -14,7 +14,7 @@ const Banner = () => {
           </div>
           <div className="text-center text-2xl absolute inset-0 top-4/12 text-white">
             <h2>In-Progress</h2>
-            <span className="text-5xl font-bold">0</span>
+            <span className="text-5xl font-bold">{countProgress}</span>
           </div>
           <div className="h-70 w-6/12">
             <img
@@ -34,7 +34,7 @@ const Banner = () => {
           </div>
           <div className="text-center text-2xl absolute inset-0 top-4/12 text-white">
             <h2>Resolved</h2>
-            <span className="text-5xl font-bold">0</span>
+            <span className="text-5xl font-bold">{countResolved}</span>
           </div>
           <div className="h-70 w-6/12">
             <img
