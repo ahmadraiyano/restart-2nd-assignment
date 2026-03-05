@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap');
 body {
   font-family: "Inter", sans-serif;
   background-color: rgb(243, 243, 239);
+  color: rgb(68, 68, 68);
 }
 .logo {
   font-family: "Irish Grover";
-  
 }
